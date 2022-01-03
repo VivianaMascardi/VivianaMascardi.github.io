@@ -4,97 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viviana Mascardi</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-        
-        p {
-            font-size: 1.2rem;
-        }
-
-        #box {
-            display: flex;
-            align-items: center;
-            column-gap: 40px;
-            width: 90%;
-        }
-
-        #info {
-            width: 30%;
-            font-style: italic;
-        }
-        
-        #photo {
-            border: 1px solid black;
-            padding: 5px;
-        }
-        
-        h1, h2 {
-            color: #202020;
-        }
-        
-        a {
-            transition: all 0.5s ease;
-        }
-        
-        a:hover {
-            background-color: #EEE;
-        }
-        
-        hr {
-            width: 85%;
-        }
-        
-        #links {
-            width: 90%;
-        }
-        
-    </style>
+    <title>Viviana Mascardi - Home</title>
+    <link rel="stylesheet" href="stile/stile.css">
 </head>
 <body>
-    <h1>Viviana Mascardi</h1>
-    <div id="box">
-        <div id="info">
-            <h2>Contact Details</h2>
+    <nav>
+        <a href="index.html" class="active">Homepage</a>
+        <a href="pag/bio.html">Biography</a>
+        <a href="pag/research.html">Research</a>
+        <a href="pag/projects.html">Projects</a>
+    </nav>
+    <main>
+        <div id="contatto">
+            <img src="img/DSC02926 (Small).jpg" width="100%">
+            <h1>Viviana Mascardi</h1>
             <p>
+                <strong>Contact details</strong>
+                <br>
                 DIBRIS - Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi
                 <br>
-                Via Dodecaneso, 35, 16146 Genova, ITALY
+                Via Dodecaneso, 35, 16146 Genova - ITALY <a href="https://goo.gl/maps/L7vrRXA2cBVXSEe76">
+                    <img src="img/gmaps (Small).png" height="20px">
+                </a>
                 <br>
                 <strong>Phone: </strong><a href="tel:+390103536664">+39 010 3536664</a>
                 <br>
-                <strong>Fax: </strong><a href="tel:+390103536699">+39 010 3536699</a>
-                <br>
                 <strong>Email address: </strong><a href="mailto:viviana.mascardi@unige.it">viviana.mascardi@unige.it</a>
-                <br><br>
-                Married to <a href="https://person.dibris.unige.it/ancona-davide/">Davide Ancona</a>, mother of <a href="./Icons/RAGAZZI.jpg">Samuele, Simone and Micol</a>
             </p>
         </div>
-        <div id="photo">
-            <img src="./Icons/FOTO-SIMONE-PORTO-ANTICO-AAMAS.jpg" width="400" alt="image not available">
-            <p><strong>2021: </strong>Porto Antico, Genova</p>
+        <div id="contenuto">
+            Scrivi, scrivi scrivi scrivi
         </div>
-    </div>
-    <hr>
-    <div id="links">
-        <h2>Main links</h2>
-        <ul>
-            <li></li>
-        </ul>
-    </div>
-    <hr>
+    </main>
     <footer>
-        <p>
-            Please send suggestions and comments to Viviana Mascardi <a href="viviana.mascardi@unige.it">viviana.mascardi@unige.it</a>
-        </p>
-        <p>
-            Last Updated: January 2022
-        </p>
+        <div id="social">
+            <a href="https://it.linkedin.com/in/viviana-mascardi-267a532">
+                <img id="linkedin" src="img/linkedin-logo.png" height="36px">
+            </a>
+            <a href="https://www.dibris.unige.it/">
+                <img id="dibris" src="img/logo_dibris.gif" height="36px">
+            </a>
+        </div>
+        <p>Last update: January 2022</p>
     </footer>
 </body>
 </html>
