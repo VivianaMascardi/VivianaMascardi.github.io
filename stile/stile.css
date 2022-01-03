@@ -94,3 +94,8 @@ a {
 img {
     border-radius: 5px;
 }
+
+#kids {
+    background-color: var(--main-color);
+    width: 100%;
+}
