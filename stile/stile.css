@@ -22,6 +22,8 @@ nav {
     align-items: center;
     column-gap: 20%;
     z-index: 10;
+    
+    flex-wrap: wrap;
 }
 
 nav > a {
@@ -52,7 +54,7 @@ main {
     margin-left: 7%;
     margin-right: 7%;
     top: 90px;
-    margin-bottom: 20px;
+    
     box-shadow: 0 0 10px 5px #dddddd;
     padding: 10px;
     column-gap: 20px;
@@ -80,6 +82,28 @@ h1 {
 
 #contatto {
     width: 33%;
+}
+
+@media (max-width: 700px) {
+    #contatto {
+        width: 100%;
+    }
+    
+    main {
+        row-gap: 15px;
+        margin-bottom: 150px;
+    }
+    nav {
+        overflow: auto;
+    }
+    
+    nav > * {
+        flex: 25%;
+    }
+    
+    nav > a {
+        margin-left: 20px;
+    }
 }
 
 #social {
