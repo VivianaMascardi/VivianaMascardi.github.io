@@ -49,6 +49,7 @@ nav > a.active::before {
 }
 
 main {
+    flex-wrap: wrap;
     display: flex;
     position: relative;
     margin-left: 7%;
