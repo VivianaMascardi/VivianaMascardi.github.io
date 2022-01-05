@@ -124,3 +124,7 @@ img {
     background-color: var(--main-color);
     width: 100%;
 }
+
+ul {
+    margin-left: 20px;
+}
