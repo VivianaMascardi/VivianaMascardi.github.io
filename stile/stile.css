@@ -81,14 +81,7 @@ h1 {
     font-size: 1.2rem;
 }
 
-#contatto {
-    width: 50%;
-} 
 
-@media (max-width: 700px) {
-    #contatto {
-        width: 100%;
-    }
     
     main {
         row-gap: 15px;
