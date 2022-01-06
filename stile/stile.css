@@ -82,8 +82,8 @@ h1 {
 }
 
 #contatto {
-    width: 33%;
-}
+    width: 50%;
+} 
 
 @media (max-width: 700px) {
     #contatto {
