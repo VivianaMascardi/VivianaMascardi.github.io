@@ -50,7 +50,6 @@ nav > a.active::before {
 
 main {
     flex-wrap: wrap;
-    flex-direction: column;
     display: flex;
     position: relative;
     margin-left: 7%;
@@ -84,14 +83,11 @@ h1 {
 }
 
 #contatto {
-    flex: left;
+    width: 45%;
 }
 
 #contenuto {
-    flex: right;
-}
-
-#altro {
+    width: 50%;
 }
 
 #social {
