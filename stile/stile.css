@@ -50,6 +50,7 @@ nav > a.active::before {
 
 main {
     flex-wrap: wrap;
+    flex-direction: column;
     display: flex;
     position: relative;
     margin-left: 7%;
@@ -59,6 +60,7 @@ main {
     box-shadow: 0 0 10px 5px #dddddd;
     padding: 10px;
     column-gap: 20px;
+    row-gap: 20px;
 }
 
 main > div > a {
@@ -81,23 +83,15 @@ h1 {
     font-size: 1.2rem;
 }
 
+#contatto {
+    flex: left;
+}
 
-    
-    main {
-        row-gap: 15px;
-        margin-bottom: 150px;
-    }
-    nav {
-        overflow: auto;
-    }
-    
-    nav > * {
-        flex: 33%;
-    }
-    
-    nav > a {
-        margin-left: 20px;
-    }
+#contenuto {
+    flex: right;
+}
+
+#altro {
 }
 
 #social {
