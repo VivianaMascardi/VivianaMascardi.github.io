@@ -67,6 +67,18 @@ main > div > a {
     color: var(--main-color);
 }
 
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+    #contatto {
+        width: 100%;
+    }
+    #contenuto {
+        width: 100%;
+    }
+}
+
 footer {
     background-color: var(--dark);
     color: var(--light);  
