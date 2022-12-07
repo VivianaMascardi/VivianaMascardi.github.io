@@ -1,3 +1,3 @@
 # VivianaMascardi.github.io
 
-Hi, I'm creating my new web site
+Hi, I hope you enjoy my brand new web site!
